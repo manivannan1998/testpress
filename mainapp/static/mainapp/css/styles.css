@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(36, 30, 126);
+    font-family: sans-serif;
+}
+
+.card{
+    text-align: center;
+    height: 70vh;
+    width: 35vw;
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 4px 4px 4px rgb(0, -0, -0),
+                -4px -4px 4px #000;
+
+    background-color: #091921;
+}
+
+input{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    border: none;
+    background-color: #000;
+    font-size: 25px;
+    height: 45px;
+    text-align: center;
+    width: 450px;
+    outline: none;
+}
+
+button{
+    outline: none;
+    width: 350px;
+    background-color: black;
+    color: #fff;
+    font-weight: 850;
+    border: 2px solid white;
+    box-shadow: 4px 4px 4px #fff,
+                -4px -4px 8px #fff;
+
+    font-size: 35px;
+    height: 45px;
+
+}
+
+.result{
+    font-size: 25px;
+    color: white;
+    font-weight: 850;
+    margin: auto;
+    height: 275px;
+    margin-top: 35px;
+    width: 750px;
+    border-radius: 15px ;
+    background-color: #091921;
+}
