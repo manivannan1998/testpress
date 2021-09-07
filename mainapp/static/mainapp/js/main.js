@@ -31,5 +31,4 @@ function publishResult(){
     else{
         document.getElementById("grade").innerHTML="You Are Fail";
     }
-
 }
